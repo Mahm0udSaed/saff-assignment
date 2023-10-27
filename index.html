@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h2>Contacts</h2>
+<div id="table-container">
+
+<table id="contacts">
+
+    <tr>
+
+        <th>Name</th>
+
+        <th>Email</th>
+
+        <th>Phone</th>
+
+    </tr>
+
+</table>
+</div>
+<div id="pagination">
+    <button id="previous" onclick="previousPage()" disabled>Previous</button>
+    <button id="next" onclick="nextPage()" disabled>Next</button>
+</div>
+<div id="contact-form">
+    <h2>Create Contact</h2>
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="tel" id="phone" placeholder="Phone" required><br>
+    <button onclick="createContact()">Create</button>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

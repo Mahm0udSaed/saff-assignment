@@ -1,0 +1,90 @@
+body {
+
+     font-family: Arial, sans-serif;
+
+     margin: 20px;
+
+   }
+
+   h2 {
+
+     text-align: center;
+
+   }
+#table-container{
+display: flex;
+    justify-content: center;
+}
+   table {
+
+     width: 50%;
+
+     border-collapse: collapse;
+
+
+    text-align: center;
+   }
+
+   table th, table td {
+
+     border: 1px solid #ccc;
+
+     padding: 8px;
+
+     text-align: left;
+
+   }
+
+   #pagination {
+
+     text-align: center;
+
+     margin-top: 20px;
+
+   }
+#contact-form{
+
+    text-align: center;
+}
+   form {
+
+     margin-top: 20px;
+
+   }
+
+   label {
+
+     display: block;
+
+     margin-bottom: 5px;
+
+   }
+
+   input[type="text"],
+
+   input[type="email"],
+    input[type="tel"]{
+
+     width: 50%;
+
+     padding: 5px;
+
+     margin-bottom: 10px;
+
+   }
+
+   button {
+
+     padding: 8px 16px;
+
+     background-color: #4CAF50;
+
+     color: white;
+
+     border: none;
+
+     cursor: pointer;
+
+     margin-bottom: 10px;
+
+   }
