@@ -31,8 +31,6 @@ function createContact() {
             document.getElementById('name').value = '';
             document.getElementById('email').value = '';
             document.getElementById('phone').value = '';
-            //fetchContacts();
-            //appendContactToTable(data);
             contactsData.push(data);
             console.log("size "+contactsData.length)
             updateTable();
@@ -134,25 +132,6 @@ function nextPage() {
     }
 }
 
-function appendContactToTable(contact) {
-    var table = document.getElementById('contacts'); // Assuming the table has an id of 'contacts'
-
-    var row = document.createElement('tr');
-
-    var nameCell = document.createElement('td');
-    nameCell.textContent = contact.name;
-    row.appendChild(nameCell);
-
-    var emailCell = document.createElement('td');
-    emailCell.textContent = contact.email;
-    row.appendChild(emailCell);
-
-    var phoneCell = document.createElement('td');
-    phoneCell.textContent = contact.phone;
-    row.appendChild(phoneCell);
-
-    table.appendChild(row);
-}
 function displayNoContactsAvailable() {
     var table = document.getElementById('contacts'); // Assuming the table has an id of 'contacts'
 
